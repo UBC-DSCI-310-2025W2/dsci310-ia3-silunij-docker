@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/dsci310-ia3:latest
-            ${{ secrets.DOCKER_USERNAME }}/dsci310-ia3:${{ env.TAG }}
+            silunijayarathne/dsci310-ia3:latest
+            silunijayarathne/dsci310-ia3:${{ env.TAG }}
